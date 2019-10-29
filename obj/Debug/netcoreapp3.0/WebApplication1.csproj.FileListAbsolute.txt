@@ -45,3 +45,5 @@ C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.dll
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.pdb
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
+C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Cash.razor.g.cs
+C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\Cash.razor.g.cs
