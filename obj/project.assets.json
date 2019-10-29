@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\oussa\\.nuget\\packages\\": {}
+    "C:\\Users\\Lotfi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oussa\\Documents\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\HaanProto\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\oussa\\Documents\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\oussa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oussa\\Documents\\WebApplication1\\obj\\",
+      "projectPath": "D:\\HaanProto\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Lotfi\\.nuget\\packages\\",
+      "outputPath": "D:\\HaanProto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oussa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Lotfi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -51,6 +51,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -59,7 +77,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
       }
     }
   }
