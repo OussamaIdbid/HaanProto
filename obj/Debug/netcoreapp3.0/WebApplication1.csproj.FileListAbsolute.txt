@@ -45,6 +45,7 @@ C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.dll
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.pdb
 C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
+<<<<<<< HEAD
 D:\HaanProto\bin\Debug\netcoreapp3.0\appsettings.Development.json
 D:\HaanProto\bin\Debug\netcoreapp3.0\appsettings.json
 D:\HaanProto\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -92,3 +93,7 @@ D:\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.Views.pdb
 D:\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.dll
 D:\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.pdb
 D:\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
+=======
+C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Cash.razor.g.cs
+C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\Cash.razor.g.cs
+>>>>>>> 55a5205d01c3c4211b3ffae474bff2898f0ddceb

@@ -258,6 +258,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.Cash",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Cash",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.Cash"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.Cash",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApplication1.Pages.Cash",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.Cash",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "WebApplication1.Shared.NavMenu",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -14777,6 +14826,11 @@
     {
       "FilePath": "App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages\\Cash.razor",
+      "TargetPath": "Pages\\Cash.razor",
       "FileKind": "component"
     },
     {
