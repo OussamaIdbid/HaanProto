@@ -1,8 +1,18 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "/Users/kerolos/.dotnet/store/|arch|/|tfm|",
       "/Users/kerolos/.nuget/packages"
+=======
+<<<<<<< HEAD
+      "C:\\Users\\Lotfi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lotfi\\.nuget\\packages"
+=======
+      "C:\\Users\\Trial\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Trial\\.nuget\\packages"
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+>>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
     ]
   }
 }

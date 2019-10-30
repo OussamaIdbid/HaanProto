@@ -8,11 +8,20 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/kerolos/.nuget/packages/": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\Lotfi\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Trial\\.nuget\\packages\\": {}
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+>>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
       "projectName": "WebApplication1",
       "projectPath": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
@@ -21,6 +30,27 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kerolos/.nuget/NuGet/NuGet.Config"
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\HaanProto\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "D:\\HaanProto\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Lotfi\\.nuget\\packages\\",
+      "outputPath": "D:\\HaanProto\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lotfi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Trial\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Trial\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+>>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -51,6 +81,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -59,7 +107,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+>>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
       }
     }
   }
