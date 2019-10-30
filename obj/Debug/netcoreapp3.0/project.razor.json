@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+  "FilePath": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -57,55 +57,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "WebApplication1.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Cash",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Cash",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Cash"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Cash",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.Cash",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Cash",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -307,14 +258,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__Counter",
+        "Name": "WebApplication1.Pages.Cash",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__generated__Counter",
+            "TagName": "Cash",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -326,19 +277,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter"
+          "Common.TypeName": "WebApplication1.Pages.Cash"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__Counter",
+        "Name": "WebApplication1.Pages.Cash",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApplication1.Pages.__generated__Counter",
+            "TagName": "WebApplication1.Pages.Cash",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -350,7 +301,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter",
+          "Common.TypeName": "WebApplication1.Pages.Cash",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14917,28 +14868,28 @@
   "RootNamespace": "WebApplication1",
   "Documents": [
     {
-      "FilePath": "Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "Pages/Cash.razor",
+      "TargetPath": "Pages/Cash.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/Counter.razor",
+      "TargetPath": "Pages/Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/Index.razor",
+      "TargetPath": "Pages/Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/_Host.cshtml",
+      "TargetPath": "Pages/_Host.cshtml",
+      "FileKind": "mvc"
     },
     {
       "FilePath": "App.razor",
       "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\Cash.razor",
-      "TargetPath": "Pages\\Cash.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
@@ -14947,23 +14898,23 @@
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
+      "FilePath": "Pages/Error.razor",
+      "TargetPath": "Pages/Error.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Error.razor",
-      "TargetPath": "Pages\\Error.razor",
+      "FilePath": "Pages/FetchData.razor",
+      "TargetPath": "Pages/FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "Shared/MainLayout.razor",
+      "TargetPath": "Shared/MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Shared/NavMenu.razor",
+      "TargetPath": "Shared/NavMenu.razor",
       "FileKind": "component"
     }
   ],
