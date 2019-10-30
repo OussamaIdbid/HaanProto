@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\oussa\\.nuget\\packages\\": {}
+    "/Users/Nadir/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oussa\\Documents\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\oussa\\Documents\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\oussa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oussa\\Documents\\WebApplication1\\obj\\",
+      "projectPath": "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj",
+      "packagesPath": "/Users/Nadir/.nuget/packages/",
+      "outputPath": "/Users/Nadir/Documents/GitHub/HaanProto/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oussa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/Nadir/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
