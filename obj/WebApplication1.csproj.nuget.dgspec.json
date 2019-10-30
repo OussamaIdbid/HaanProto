@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kerolos/.nuget/NuGet/NuGet.Config"
-=======
-    "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj": {}
-  },
-  "projects": {
-    "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj",
-        "projectName": "WebApplication1",
-        "projectPath": "/Users/Nadir/Documents/GitHub/HaanProto/WebApplication1.csproj",
-        "packagesPath": "/Users/Nadir/.nuget/packages/",
-        "outputPath": "/Users/Nadir/Documents/GitHub/HaanProto/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/Nadir/.nuget/NuGet/NuGet.Config"
->>>>>>> 6d4c43ebc322114e47fa5c98d5484285fffaf261
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

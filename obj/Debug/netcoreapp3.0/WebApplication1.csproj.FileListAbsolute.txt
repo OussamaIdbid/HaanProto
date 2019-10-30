@@ -46,7 +46,6 @@ C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.dll
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.pdb
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.csproj.CopyComplete
-<<<<<<< HEAD
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.Development.json
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.json
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
@@ -96,7 +95,6 @@ C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1
 /Users/kerolos/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.csproj.CopyComplete
 =======
 >>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
-=======
 /Users/Nadir/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.Development.json
 /Users/Nadir/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.json
 /Users/Nadir/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
@@ -144,7 +142,6 @@ C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.dll
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.pdb
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.csproj.CopyComplete
-=======
 >>>>>>> 6d4c43ebc322114e47fa5c98d5484285fffaf261
 D:/HaanProto/bin/Debug/netcoreapp3.0/appsettings.Development.json
 D:/HaanProto/bin/Debug/netcoreapp3.0/appsettings.json
@@ -247,11 +244,7 @@ C:/Users/Trial/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/WebApplication
 c:/Users/Trial/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 c:/Users/Trial/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
 >>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-<<<<<<< HEAD
 /Users/kerolos/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 /Users/kerolos/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
-=======
->>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
->>>>>>> 6d4c43ebc322114e47fa5c98d5484285fffaf261
