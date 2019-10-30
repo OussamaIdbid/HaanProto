@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "FilePath": "c:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+=======
+<<<<<<< HEAD
+  "FilePath": "d:\\HaanProto\\WebApplication1.csproj",
+=======
+  "FilePath": "c:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+>>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -62,14 +70,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Counter",
+        "Name": "WebApplication1.Pages.Cash",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter",
+            "TagName": "Cash",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -81,19 +89,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Counter"
+          "Common.TypeName": "WebApplication1.Pages.Cash"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Counter",
+        "Name": "WebApplication1.Pages.Cash",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApplication1.Pages.Counter",
+            "TagName": "WebApplication1.Pages.Cash",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -105,7 +113,80 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.Cash",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+<<<<<<< HEAD
+        "Name": "WebApplication1.Pages.Index",
+=======
+        "Name": "WebApplication1.Pages.Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+<<<<<<< HEAD
+            "TagName": "Index",
+=======
+            "TagName": "Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+<<<<<<< HEAD
+          "Common.TypeName": "WebApplication1.Pages.Index"
+=======
+          "Common.TypeName": "WebApplication1.Pages.Counter"
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        }
+      },
+      {
+        "Kind": "Components.Component",
+<<<<<<< HEAD
+        "Name": "WebApplication1.Pages.Index",
+=======
+        "Name": "WebApplication1.Pages.Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+<<<<<<< HEAD
+            "TagName": "WebApplication1.Pages.Index",
+=======
+            "TagName": "WebApplication1.Pages.Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+<<<<<<< HEAD
+          "Common.TypeName": "WebApplication1.Pages.Index",
+=======
           "Common.TypeName": "WebApplication1.Pages.Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -258,6 +339,79 @@
       },
       {
         "Kind": "Components.Component",
+<<<<<<< HEAD
+        "Name": "WebApplication1.Shared.NavMenu",
+=======
+        "Name": "WebApplication1.Pages.__generated__Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+<<<<<<< HEAD
+            "TagName": "NavMenu",
+=======
+            "TagName": "__generated__Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+<<<<<<< HEAD
+          "Common.TypeName": "WebApplication1.Shared.NavMenu"
+=======
+          "Common.TypeName": "WebApplication1.Pages.__generated__Counter"
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        }
+      },
+      {
+        "Kind": "Components.Component",
+<<<<<<< HEAD
+        "Name": "WebApplication1.Shared.NavMenu",
+=======
+        "Name": "WebApplication1.Pages.__generated__Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+<<<<<<< HEAD
+            "TagName": "WebApplication1.Shared.NavMenu",
+=======
+            "TagName": "WebApplication1.Pages.__generated__Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+<<<<<<< HEAD
+          "Common.TypeName": "WebApplication1.Shared.NavMenu",
+=======
+          "Common.TypeName": "WebApplication1.Pages.__generated__Counter",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "WebApplication1.Shared.MainLayout",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -280,7 +434,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -320,7 +474,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -341,7 +495,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -366,7 +520,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -390,6 +544,8 @@
       },
       {
         "Kind": "Components.Component",
+<<<<<<< HEAD
+=======
         "Name": "WebApplication1.Shared.NavMenu",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -439,6 +595,7 @@
       },
       {
         "Kind": "Components.Component",
+>>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
         "Documentation": "\n             <summary>\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\n             so that it displays the page matching the specified route but only if the user\n             is authorized to see it.\n            \n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\n             which makes the user's current authentication state available to descendants.\n             </summary>\n        ",
@@ -2321,7 +2478,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -2345,7 +2502,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -2370,7 +2527,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -2511,7 +2668,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -9469,7 +9626,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting elements containing attributes with URL expected values.\n            </summary>\n            <remarks>Resolves URLs starting with '~/' (relative to the application's 'webroot' setting) that are not\n            targeted by other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s. Runs prior to other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s to ensure\n            application-relative URLs are resolved.</remarks>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": false,
         "TagMatchingRules": [
@@ -14777,6 +14934,11 @@
     {
       "FilePath": "App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages\\Cash.razor",
+      "TargetPath": "Pages\\Cash.razor",
       "FileKind": "component"
     },
     {
