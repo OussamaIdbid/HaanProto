@@ -307,14 +307,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__Counter",
+        "Name": "WebApplication1.Pages.__generated__FetchData",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__generated__Counter",
+            "TagName": "__generated__FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -326,19 +326,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter"
+          "Common.TypeName": "WebApplication1.Pages.__generated__FetchData"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__Counter",
+        "Name": "WebApplication1.Pages.__generated__FetchData",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApplication1.Pages.__generated__Counter",
+            "TagName": "WebApplication1.Pages.__generated__FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -350,7 +350,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter",
+          "Common.TypeName": "WebApplication1.Pages.__generated__FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
