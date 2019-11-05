@@ -307,50 +307,136 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__FetchData",
+        "Name": "WebApplication1.Pages.OrderLine",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__generated__FetchData",
+            "TagName": "OrderLine",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "name",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "name"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "amount",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "amount"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "price",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "price"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__FetchData"
+          "Common.TypeName": "WebApplication1.Pages.OrderLine"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__FetchData",
+        "Name": "WebApplication1.Pages.OrderLine",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApplication1.Pages.__generated__FetchData",
+            "TagName": "WebApplication1.Pages.OrderLine",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "name",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "name"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "amount",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "amount"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "price",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "price"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__FetchData",
+          "Common.TypeName": "WebApplication1.Pages.OrderLine",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14875,6 +14961,11 @@
     {
       "FilePath": "Pages/Counter.razor",
       "TargetPath": "Pages/Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/OrderLine.razor",
+      "TargetPath": "Pages/OrderLine.razor",
       "FileKind": "component"
     },
     {

@@ -1,10 +1,119 @@
 @page "/cash"
 
-<div class="container row" id='cash-container'>
-    <div class="container col-7" id='product-field'>gdgd</div>
-    <div class="container col-5 bg-" id='order-field'>dgdgd</div>
-</div>
+    <div id='main-container' class='container d-inline-flex flex-row shadow-lg'>
+
+		<div id='left' class='container col-8 justify-content-start'>
+			<div id='top-bar' class='d-flex flex-row shadow-lg '>
+
+		        <i class="material-icons" id='menu-icon'>menu</i>
+            </div>
+            <div id="product-container" class=''>
+                <div id='items-container' class="d-inline-flex flex-row p-2">
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1'@onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+                    <div class='product shadow-sm p-2 m-1' @onclick='RenderComponent'>
+                        <p class='product-name'>Test Product</p>
+                    </div>
+
+                </div>
+
+                <div id="product-category-container" class='d-flex flex-row p-2'>
+                    <div class='product-category shadow-sm p-2 m-1'>
+                        <p class='product-name'>Test Categorie</p>
+                    </div>
+                    <div class='product-category shadow-sm p-2 m-1'>
+                        <p class='product-name'>Test Categorie</p>
+                    </div>
+                    <div class='product-category shadow-sm p-2 m-1'>
+                        <p class='product-name'>Test Categorie</p>
+                    </div>
+                    <div class='product-category shadow-sm p-2 m-1'>
+                        <p class='product-name'>Test Categorie</p>
+                    </div>
+                    <div class='product-category shadow-sm p-2 m-1'>
+                        <p class='product-name'>Test Categorie</p>
+                    </div>
+                </div>
+
+          
+            </div>
+
+        </div>
+    
+
+
+
+        <div id='right' class='container col-4 bg-white'>
+            <div id='order-container'>@CustomRender</div>
+                <div id='checkout-container'>
+                    <div id="price-container" class='text-muted'>
+                        <p id='discount' >Discount</p>
+                        <p id='subtotal' >Subtotal</p>
+                        <p id='total'>Total</p>
+                    </div>
+                    <div id="checkout-buttons-container" >
+                        <button type="button" id="cancel-button" class="btn btn-lg  btn-primary shadow-sm checkout-button m-1">Cancel</button>
+                        <button type="button" id="pin-button" class="btn btn-lg  btn-primary shadow-sm checkout-button m-1">Pin</button>
+                        <button type="button" id="contant-button" class="btn btn-lg btn-primary shadow-sm checkout-button m-1">Contant</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
 
 @code {
 
+    RenderFragment CustomRender { get; set;}
+    RenderFragment CreateItem() => builder =>
+    {
+        builder.OpenComponent(0, typeof(OrderLine));
+        builder.AddAttribute(1, "name", "TEST PRODUCT");
+        builder.AddAttribute(1, "amount", "2");
+        builder.AddAttribute(1, "price", "3.80");
+        builder.CloseComponent();
+        
+
+
+    };
+    void RenderComponent(){
+
+        CustomRender = CreateItem();
+    }
 }
+
+
