@@ -1,13 +1,5 @@
 {
-<<<<<<< HEAD
   "FilePath": "c:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
-=======
-<<<<<<< HEAD
-  "FilePath": "d:\\HaanProto\\WebApplication1.csproj",
-=======
-  "FilePath": "c:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
->>>>>>> 0f7b1fae68cf18baafcdb2dc4d725cb98e0ca6d8
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -119,22 +111,14 @@
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "WebApplication1.Pages.Index",
-=======
         "Name": "WebApplication1.Pages.Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
-            "TagName": "Index",
-=======
             "TagName": "Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -146,31 +130,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "WebApplication1.Pages.Index"
-=======
           "Common.TypeName": "WebApplication1.Pages.Counter"
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
         }
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "WebApplication1.Pages.Index",
-=======
         "Name": "WebApplication1.Pages.Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-<<<<<<< HEAD
-            "TagName": "WebApplication1.Pages.Index",
-=======
             "TagName": "WebApplication1.Pages.Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -182,11 +154,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "WebApplication1.Pages.Index",
-=======
           "Common.TypeName": "WebApplication1.Pages.Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -339,79 +307,6 @@
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "WebApplication1.Shared.NavMenu",
-=======
-        "Name": "WebApplication1.Pages.__generated__Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "NavMenu",
-=======
-            "TagName": "__generated__Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "WebApplication1.Shared.NavMenu"
-=======
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter"
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-        }
-      },
-      {
-        "Kind": "Components.Component",
-<<<<<<< HEAD
-        "Name": "WebApplication1.Shared.NavMenu",
-=======
-        "Name": "WebApplication1.Pages.__generated__Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-<<<<<<< HEAD
-            "TagName": "WebApplication1.Shared.NavMenu",
-=======
-            "TagName": "WebApplication1.Pages.__generated__Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-<<<<<<< HEAD
-          "Common.TypeName": "WebApplication1.Shared.NavMenu",
-=======
-          "Common.TypeName": "WebApplication1.Pages.__generated__Counter",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "WebApplication1.Shared.MainLayout",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -544,8 +439,6 @@
       },
       {
         "Kind": "Components.Component",
-<<<<<<< HEAD
-=======
         "Name": "WebApplication1.Shared.NavMenu",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -595,7 +488,6 @@
       },
       {
         "Kind": "Components.Component",
->>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
         "Documentation": "\n             <summary>\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\n             so that it displays the page matching the specified route but only if the user\n             is authorized to see it.\n            \n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\n             which makes the user's current authentication state available to descendants.\n             </summary>\n        ",
@@ -10296,7 +10188,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
