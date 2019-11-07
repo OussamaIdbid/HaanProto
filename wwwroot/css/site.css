@@ -186,19 +186,48 @@ align-items:stretch;
   width:130px;
   height:100px;
   background-color:white;
-
+  background-position: center;
+  transition: background 0.8s;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
+
+.product:hover{
+    background: radial-gradient(circle, transparent 1%,) center/15000%;
+}
+
+.product:active{
+  background-color: #000080;
+  background-size: 100%;
+  transition: background 0s;
+  color: white;
+}
+
 .product-category{
   height:100px;
   width:140px;
   background-color:white;
-
- 
+  background-position: center;
+  transition: background 0.8s;
 }
+
+.product-category:hover{
+  background: radial-gradient(circle, transparent 1%,) center/15000%;
+}
+
+.product-category:active{
+background-color: #000080;
+background-size: 100%;
+transition: background 0s;
+color: white;
+}
+ 
 #product-container{
   width:100%;
   height:94%;
 }
+
 #items-container{
   width:100%;
   flex-wrap:wrap;

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "FilePath": "c:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+=======
+  "FilePath": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
+>>>>>>> c4fc8864c15fe058bcaf5c6f101f265e661ff94e
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -442,6 +446,7 @@
       },
       {
         "Kind": "Components.Component",
+<<<<<<< HEAD
         "Name": "WebApplication1.App",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -491,6 +496,8 @@
       },
       {
         "Kind": "Components.Component",
+=======
+>>>>>>> c4fc8864c15fe058bcaf5c6f101f265e661ff94e
         "Name": "WebApplication1.Shared.MainLayout",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -513,7 +520,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Documentation": null,
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -553,7 +560,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Documentation": null,
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -574,7 +581,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -599,7 +606,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -10372,7 +10379,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
+            "Documentation": null,
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
@@ -15003,28 +15010,33 @@
   "RootNamespace": "WebApplication1",
   "Documents": [
     {
-      "FilePath": "Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "Pages/Cash.razor",
+      "TargetPath": "Pages/Cash.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/Counter.razor",
+      "TargetPath": "Pages/Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/OrderLine.razor",
+      "TargetPath": "Pages/OrderLine.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/Index.razor",
+      "TargetPath": "Pages/Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/_Host.cshtml",
+      "TargetPath": "Pages/_Host.cshtml",
+      "FileKind": "mvc"
     },
     {
       "FilePath": "App.razor",
       "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\Cash.razor",
-      "TargetPath": "Pages\\Cash.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
@@ -15033,28 +15045,23 @@
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
+      "FilePath": "Pages/Error.razor",
+      "TargetPath": "Pages/Error.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Error.razor",
-      "TargetPath": "Pages\\Error.razor",
+      "FilePath": "Pages/FetchData.razor",
+      "TargetPath": "Pages/FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\OrderLine.razor",
-      "TargetPath": "Pages\\OrderLine.razor",
+      "FilePath": "Shared/MainLayout.razor",
+      "TargetPath": "Shared/MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "Shared/NavMenu.razor",
+      "TargetPath": "Shared/NavMenu.razor",
       "FileKind": "component"
     }
   ],

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\oussa\Documents\WebApplication1\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\oussa\Documents\WebApplication1\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\oussa\Documents\WebApplication1\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -51,6 +52,8 @@ C:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\Cas
 c:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\OrderLine.razor.g.cs
 c:\Users\oussa\Documents\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\OrderLine.razor.g.cs
 =======
+=======
+>>>>>>> c4fc8864c15fe058bcaf5c6f101f265e661ff94e
 C:/Users/oussa/Documents/WebApplication1/bin/Debug/netcoreapp3.0/appsettings.Development.json
 C:/Users/oussa/Documents/WebApplication1/bin/Debug/netcoreapp3.0/appsettings.json
 C:/Users/oussa/Documents/WebApplication1/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
@@ -98,6 +101,11 @@ C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.dll
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.pdb
 C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/WebApplication1.csproj.CopyComplete
+C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
+C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
+c:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/OrderLine.razor.g.cs
+c:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/Razor/Pages/OrderLine.razor.g.cs
+=======
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.Development.json
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/appsettings.json
 /Users/kerolos/Documents/GitHub/HaanProto/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
@@ -241,8 +249,6 @@ D:/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.Views.pdb
 D:/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.dll
 D:/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.pdb
 D:/HaanProto/obj/Debug/netcoreapp3.0/WebApplication1.csproj.CopyComplete
-C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
-C:/Users/oussa/Documents/WebApplication1/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
 >>>>>>> 55a5205d01c3c4211b3ffae474bff2898f0ddceb
 D:/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 >>>>>>> 8ee410ce8b3c5b6ce1a2ea43d3bd73882cbda18f
@@ -251,6 +257,7 @@ D:/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Cash.razor.g.cs
 /Users/Nadir/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/Razor/Pages/Cash.razor.g.cs
 >>>>>>> aabd061d9c6c7799f23a9752eb11d69a7b4f98b7
+<<<<<<< HEAD
 c:\Users\Trial\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\appsettings.Development.json
 c:\Users\Trial\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\appsettings.json
 c:\Users\Trial\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -302,3 +309,7 @@ c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication
 c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.dll
 c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.pdb
 C:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
+=======
+/Users/kerolos/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/OrderLine.razor.g.cs
+/Users/kerolos/Documents/GitHub/HaanProto/obj/Debug/netcoreapp3.0/Razor/Pages/OrderLine.razor.g.cs
+>>>>>>> c4fc8864c15fe058bcaf5c6f101f265e661ff94e
