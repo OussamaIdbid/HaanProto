@@ -72,6 +72,13 @@ using WebApplication1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "c:\Users\Trial\Documents\GitHub\HaanProto\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     public class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

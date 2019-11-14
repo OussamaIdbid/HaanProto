@@ -73,6 +73,13 @@ using WebApplication1.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "c:\Users\Trial\Documents\GitHub\HaanProto\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "c:\Users\Trial\Documents\GitHub\HaanProto\Pages\FetchData.razor"
 using WebApplication1.Data;
 

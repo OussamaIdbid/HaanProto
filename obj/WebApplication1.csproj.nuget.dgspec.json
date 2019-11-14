@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "EmbeddedBlazorContent": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[1.10.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
