@@ -40,7 +40,7 @@ namespace WebApplication1.Data{
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"delete from dbo.City where Id=@Id";  
+                const string query = @"delete from dbo.Product where Id=@Id";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
@@ -63,7 +63,7 @@ namespace WebApplication1.Data{
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"update dbo.City set Name = @Name, State = @State where Id=@Id";  
+                const string query = @"update dbo.Product set Name = @Name, Price = @Price where Id=@Id";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
@@ -87,7 +87,7 @@ namespace WebApplication1.Data{
             IEnumerable<Product> products;  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"select * from dbo.Product";  
+                const string query = @"select * from cash.dbo.Product";  
   
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
@@ -115,7 +115,7 @@ namespace WebApplication1.Data{
   
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"select * from dbo.City where Id =@Id";  
+                const string query = @"select * from dbo.Product where Id =@Id";  
   
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
