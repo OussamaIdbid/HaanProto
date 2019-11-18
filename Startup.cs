@@ -30,6 +30,15 @@ namespace WebApplication1
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+
+
+            services.AddScoped<IProductService, ProductService>();  
+  
+            var sqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("SqlDbContext"));  
+            services.AddSingleton(sqlConnectionConfiguration);  
+  
+            services.AddServerSideBlazor(o => o.DetailedErrors = true);  
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

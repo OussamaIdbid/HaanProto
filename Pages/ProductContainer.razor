@@ -1,0 +1,36 @@
+@page "/productcontainer"
+@using WebApplication1.Data
+@inject IProductService ProductService
+
+
+
+        <div class="mat-layout-grid">
+            <div class="mat-layout-grid-inner">
+             @if (products == null)
+            {
+                <p><em>Loading...</em></p>
+            }
+            else
+            {   
+            @foreach (var product in products)
+            {
+                <MatButton Raised="true" class="product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+                    @product.Name
+                </MatButton>
+            }
+        }
+                
+
+            </div>
+        </div>
+@code{
+    IEnumerable<Product> products;  
+  
+    protected override async Task OnInitializedAsync()  
+    {  
+        products = await ProductService.GetProducts();  
+    }  
+}  
+
+
+
