@@ -108,7 +108,35 @@ namespace WebApplication1.Data{
   
             }  
             return products;  
-        }  
+        }
+        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId){
+
+            IEnumerable<Product> products;  
+            using (var conn = new SqlConnection(_configuration.Value))  
+            {  
+                const string query = @"select * from cash.dbo.Product where categoryid = @categoryId";  
+  
+                if (conn.State == ConnectionState.Closed)  
+                    conn.Open();  
+                try  
+                {  
+                    products = await conn.QueryAsync<Product>(query);  
+  
+                }  
+                catch (Exception ex)  
+                {  
+                    throw ex;  
+                }  
+                finally  
+                {  
+                    if (conn.State == ConnectionState.Open)  
+                        conn.Close();  
+                }  
+  
+            }  
+            return products;  
+
+        }
         public async Task<Product> SingleProduct(int id)  
         {  
             Product product = new Product();  

@@ -491,6 +491,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.__generated__Cash",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "__generated__Cash",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.__generated__Cash"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.__generated__Cash",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApplication1.Pages.__generated__Cash",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.__generated__Cash",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "WebApplication1.Shared.MainLayout",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -513,7 +562,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -553,7 +602,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Body",
@@ -574,7 +623,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -599,7 +648,7 @@
         "Kind": "Components.ChildContent",
         "Name": "WebApplication1.Shared.MainLayout.Body",
         "AssemblyName": "WebApplication1",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55244,7 +55293,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55259,7 +55308,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55341,7 +55390,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55356,7 +55405,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55419,7 +55468,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55444,7 +55493,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55470,7 +55519,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55510,7 +55559,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55551,7 +55600,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Displays differing content depending on the user's authorization status.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55692,7 +55741,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Displays differing content depending on the user's authorization status.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57104,7 +57153,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57128,7 +57177,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57153,7 +57202,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57173,7 +57222,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created <c>form</c> element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57187,7 +57236,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Supplies the edit context explicitly. If using this parameter, do not\n            also supply <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.Model\" />, since the model value will be taken\n            from the <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditContext.Model\" /> property.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "EditContext"
@@ -57201,7 +57250,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the top-level model object for the form. An edit context will\n            be constructed for this model. If using this parameter, do not also supply\n            a value for <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Model"
@@ -57215,7 +57264,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -57230,7 +57279,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n             <summary>\n             A callback that will be invoked when the form is submitted.\n            \n             If using this parameter, you are responsible for triggering any validation\n             manually, e.g., by calling <see cref=\"M:Microsoft.AspNetCore.Components.Forms.EditContext.Validate\" />.\n             </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnSubmit",
@@ -57245,7 +57294,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be valid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnValidSubmit",
@@ -57260,7 +57309,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be invalid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnInvalidSubmit",
@@ -57294,7 +57343,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57314,7 +57363,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created <c>form</c> element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57328,7 +57377,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Supplies the edit context explicitly. If using this parameter, do not\n            also supply <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.Model\" />, since the model value will be taken\n            from the <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditContext.Model\" /> property.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "EditContext"
@@ -57342,7 +57391,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the top-level model object for the form. An edit context will\n            be constructed for this model. If using this parameter, do not also supply\n            a value for <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Model"
@@ -57356,7 +57405,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -57371,7 +57420,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n             <summary>\n             A callback that will be invoked when the form is submitted.\n            \n             If using this parameter, you are responsible for triggering any validation\n             manually, e.g., by calling <see cref=\"M:Microsoft.AspNetCore.Components.Forms.EditContext.Validate\" />.\n             </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnSubmit",
@@ -57386,7 +57435,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be valid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnValidSubmit",
@@ -57401,7 +57450,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be invalid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnInvalidSubmit",
@@ -57436,7 +57485,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57476,7 +57525,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57517,7 +57566,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing <see cref=\"T:System.Boolean\" /> values.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57599,7 +57648,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing <see cref=\"T:System.Boolean\" /> values.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -64252,7 +64301,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting elements containing attributes with URL expected values.\n            </summary>\n            <remarks>Resolves URLs starting with '~/' (relative to the application's 'webroot' setting) that are not\n            targeted by other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s. Runs prior to other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s to ensure\n            application-relative URLs are resolved.</remarks>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": false,
         "TagMatchingRules": [
@@ -64922,7 +64971,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
