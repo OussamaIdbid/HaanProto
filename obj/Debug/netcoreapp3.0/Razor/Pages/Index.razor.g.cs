@@ -72,6 +72,13 @@ using WebApplication1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "c:\Users\gebruiker1\Documents\GitHub\HaanProto\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

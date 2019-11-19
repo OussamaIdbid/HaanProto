@@ -76,6 +76,13 @@ using WebApplication1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "c:\Users\gebruiker1\Documents\GitHub\HaanProto\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
     public class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

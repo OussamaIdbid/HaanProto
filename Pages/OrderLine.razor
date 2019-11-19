@@ -1,0 +1,15 @@
+@page "/orderline"
+<div class="order-item">
+    <p class="order-item-component">@name</p>
+    <p class="order-item-component">@amount</p>
+    <p class="order-item-component">@price</p>
+</div>
+
+@code{
+    
+    
+    [Parameter] public string name {get; set;}
+    [Parameter] public int amount {get; set;}
+    [Parameter] public double price {get; set;}
+
+}
