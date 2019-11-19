@@ -17,7 +17,7 @@ namespace WebApplication1.Data{
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"insert into dbo.City (Name,Price) values (@Name,@Price)";  
+                const string query = @"insert into dbo.Product (Name,Price) values (@Name,@Price)";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
