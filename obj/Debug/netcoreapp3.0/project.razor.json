@@ -442,6 +442,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.ProductCategories",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductCategories",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.ProductCategories"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.ProductCategories",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApplication1.Pages.ProductCategories",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.ProductCategories",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "WebApplication1.Pages.ProductContainer",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -491,14 +540,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__ProductContainer",
+        "Name": "WebApplication1.Pages.__generated__ProductCategories",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "__generated__ProductContainer",
+            "TagName": "__generated__ProductCategories",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -510,19 +559,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer"
+          "Common.TypeName": "WebApplication1.Pages.__generated__ProductCategories"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__ProductContainer",
+        "Name": "WebApplication1.Pages.__generated__ProductCategories",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WebApplication1.Pages.__generated__ProductContainer",
+            "TagName": "WebApplication1.Pages.__generated__ProductCategories",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -534,7 +583,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer",
+          "Common.TypeName": "WebApplication1.Pages.__generated__ProductCategories",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -74907,6 +74956,11 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
@@ -74919,6 +74973,11 @@
     {
       "FilePath": "Pages\\OrderLine.razor",
       "TargetPath": "Pages\\OrderLine.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages\\ProductCategories.razor",
+      "TargetPath": "Pages\\ProductCategories.razor",
       "FileKind": "component"
     },
     {
