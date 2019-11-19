@@ -294,6 +294,9 @@ color: white;
   margin:5px;
 }
 .product-test{
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+background-color:white;
+height: 100px;
+width: 110px;
+text-align: center;
+vertical-align: middle;
 }
