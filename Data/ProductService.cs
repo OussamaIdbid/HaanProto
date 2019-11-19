@@ -17,7 +17,7 @@ namespace WebApplication1.Data{
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"insert into dbo.City (Name,Price) values (@Name,@Price)";  
+                const string query = @"insert into dbo.Product (Name,Price) values (@Name,@Price)";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
@@ -108,7 +108,35 @@ namespace WebApplication1.Data{
   
             }  
             return products;  
-        }  
+        }
+        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId){
+
+            IEnumerable<Product> products;  
+            using (var conn = new SqlConnection(_configuration.Value))  
+            {  
+                const string query = @"select * from cash.dbo.Product where CategoryId = @CategoryId";  
+  
+                if (conn.State == ConnectionState.Closed)  
+                    conn.Open();  
+                try  
+                {  
+                    products = await conn.QueryAsync<Product>(query, new { categoryId}, commandType: CommandType.Text);  
+  
+                }  
+                catch (Exception ex)  
+                {  
+                    throw ex;  
+                }  
+                finally  
+                {  
+                    if (conn.State == ConnectionState.Open)  
+                        conn.Close();  
+                }  
+  
+            }  
+            return products;  
+
+        }
         public async Task<Product> SingleProduct(int id)  
         {  
             Product city = new Product();  

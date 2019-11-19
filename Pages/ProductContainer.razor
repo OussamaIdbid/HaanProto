@@ -13,10 +13,16 @@
             else
             {   
             @foreach (var product in products)
+<<<<<<< HEAD
             {
                 <MatButton Raised="true" class="product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
                     @product.Name
                 </MatButton>
+=======
+            {   <MatRipple class=".mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+                     @product.Name
+                </MatRipple>
+>>>>>>> 88b23ec8ee638c2f75d0311fda43f47be73a358e
             }
         }
                 
@@ -28,8 +34,10 @@
   
     protected override async Task OnInitializedAsync()  
     {  
-        products = await ProductService.GetProducts();  
-    }  
+        products = await ProductService.GetProductsByCategory(2);  
+    }
+
+
 }  
 
 

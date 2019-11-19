@@ -491,6 +491,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.__generated__ProductContainer",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "__generated__ProductContainer",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "WebApplication1.Pages.__generated__ProductContainer",
+        "AssemblyName": "WebApplication1",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WebApplication1.Pages.__generated__ProductContainer",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "WebApplication1.Shared.MainLayout",
         "AssemblyName": "WebApplication1",
         "Documentation": null,
@@ -74856,11 +74905,6 @@
       "FilePath": "_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
     },
     {
       "FilePath": "Shared\\MainLayout.razor",
