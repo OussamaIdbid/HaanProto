@@ -38,7 +38,7 @@
         var response = await JsRuntime.InvokeAsync<int>( identifier:"getButtonIndex",
             index);
         await JsRuntime.InvokeVoidAsync("setElementTextById","indexClicked",response);
-    
+        Console.WriteLine(index);
     }
 
 
