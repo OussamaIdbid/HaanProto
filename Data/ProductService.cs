@@ -59,7 +59,7 @@ namespace WebApplication1.Data{
             }  
             return true;  
         }  
-        public async Task<bool> EditProduct(int id, Product city)  
+        public async Task<bool> EditProduct(int id, Product product)  
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
@@ -68,7 +68,7 @@ namespace WebApplication1.Data{
                     conn.Open();  
                 try  
                 {  
-                    await conn.ExecuteAsync(query, new { city.Name, city.Price, id }, commandType: CommandType.Text);  
+                    await conn.ExecuteAsync(query, new { product.Name, product.Price, id }, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -139,7 +139,7 @@ namespace WebApplication1.Data{
         }
         public async Task<Product> SingleProduct(int id)  
         {  
-            Product city = new Product();  
+            Product product = new Product();  
   
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
@@ -149,7 +149,7 @@ namespace WebApplication1.Data{
                     conn.Open();  
                 try  
                 {  
-                    city = await conn.QueryFirstOrDefaultAsync<Product>(query, new { id }, commandType: CommandType.Text);  
+                    product = await conn.QueryFirstOrDefaultAsync<Product>(query, new { id }, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -161,7 +161,7 @@ namespace WebApplication1.Data{
                         conn.Close();  
                 }  
             }  
-            return city;  
+            return product;  
         }  
     }  
 }  

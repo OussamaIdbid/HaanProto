@@ -4940,7 +4940,11 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/kerolos/.nuget/packages/": {}
+=======
+    "C:\\Users\\gebruiker1\\.nuget\\packages\\": {}
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
     "C:\\Users\\Trial\\.nuget\\packages\\": {}
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
@@ -4948,6 +4952,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
       "projectName": "WebApplication1",
@@ -4957,6 +4962,17 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kerolos/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\gebruiker1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gebruiker1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
       "projectUniqueName": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
       "projectName": "WebApplication1",
@@ -5026,5 +5042,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100-preview2-014569/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\obj\\WebApplication1.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

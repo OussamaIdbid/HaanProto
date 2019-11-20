@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj": {}
   },
   "projects": {
@@ -16,6 +17,23 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kerolos/.nuget/NuGet/NuGet.Config"
+=======
+    "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\gebruiker1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gebruiker1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
     "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj": {}
   },

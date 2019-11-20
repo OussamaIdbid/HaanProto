@@ -161,14 +161,17 @@ using MatBlazor;
                 __builder2.AddAttribute(6, "DefaultLayout", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Type>(
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 3 "/Users/kerolos/Documents/GitHub/HaanProto/App.razor"
+=======
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
 #line 3 "C:\Users\Trial\Documents\GitHub\HaanProto\App.razor"
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
                                                           typeof(MainLayout)
 
+>>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
 #line default
-#line hidden
 #nullable disable
                 ));
                 __builder2.CloseComponent();

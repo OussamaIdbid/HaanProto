@@ -1,5 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "/Users/kerolos/Documents/GitHub/HaanProto/Pages/_Host.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "aba3bd55f63b9b7fdb3efa712c1f9b89627cc8e5"
+=======
+<<<<<<< HEAD
+#pragma checksum "c:\Users\gebruiker1\Documents\GitHub\HaanProto\Pages\_Host.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0ff21170a1e569c1f3f0333d738d52612f82f499"
+=======
+#pragma checksum "c:\Users\oussa\Documents\GitHub\HaanProto\Pages\_Host.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0ff21170a1e569c1f3f0333d738d52612f82f499"
+>>>>>>> 88b23ec8ee638c2f75d0311fda43f47be73a358e
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
 #pragma checksum "C:\Users\Trial\Documents\GitHub\HaanProto\Pages\_Host.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6f0b7b960f9ffa65eba35a3159c7d8fe5cfa725a"
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
@@ -18,7 +26,15 @@ namespace WebApplication1.Pages
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 2 "/Users/kerolos/Documents/GitHub/HaanProto/Pages/_Host.cshtml"
+=======
+<<<<<<< HEAD
+#line 2 "c:\Users\gebruiker1\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+=======
+#line 2 "c:\Users\oussa\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+>>>>>>> 88b23ec8ee638c2f75d0311fda43f47be73a358e
+>>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
 #line 2 "C:\Users\Trial\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
@@ -70,6 +86,16 @@ using EmbeddedBlazorContent;
 #line 11 "/Users/kerolos/Documents/GitHub/HaanProto/Pages/_Host.cshtml"
 =======
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
+<<<<<<< HEAD
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ff21170a1e569c1f3f0333d738d52612f82f4993490", async() => {
+                WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    ");
+#nullable restore
+<<<<<<< HEAD
+#line 11 "c:\Users\gebruiker1\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+=======
+#line 11 "c:\Users\oussa\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+>>>>>>> 88b23ec8ee638c2f75d0311fda43f47be73a358e
+=======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f0b7b960f9ffa65eba35a3159c7d8fe5cfa725a3480", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    ");
 #nullable restore
@@ -85,6 +111,9 @@ Write(Html.EmbeddedBlazorContent());
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("base", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "aba3bd55f63b9b7fdb3efa712c1f9b89627cc8e54044", async() => {
 =======
                 WriteLiteral("\r\n    <title>WebApplication1</title>\r\n\r\n    ");
+<<<<<<< HEAD
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("base", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0ff21170a1e569c1f3f0333d738d52612f82f4994140", async() => {
+=======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("base", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6f0b7b960f9ffa65eba35a3159c7d8fe5cfa725a4125", async() => {
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
                 }
@@ -126,6 +155,16 @@ Write(Html.EmbeddedBlazorContent());
 #line 23 "/Users/kerolos/Documents/GitHub/HaanProto/Pages/_Host.cshtml"
 =======
             WriteLiteral("\r\n");
+<<<<<<< HEAD
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ff21170a1e569c1f3f0333d738d52612f82f4996217", async() => {
+                WriteLiteral("\r\n    <app>\r\n        ");
+#nullable restore
+<<<<<<< HEAD
+#line 23 "c:\Users\gebruiker1\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+=======
+#line 23 "c:\Users\oussa\Documents\GitHub\HaanProto\Pages\_Host.cshtml"
+>>>>>>> 88b23ec8ee638c2f75d0311fda43f47be73a358e
+=======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f0b7b960f9ffa65eba35a3159c7d8fe5cfa725a6299", async() => {
                 WriteLiteral("\r\n    <app>\r\n        ");
 #nullable restore
