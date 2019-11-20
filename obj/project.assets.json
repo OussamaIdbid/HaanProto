@@ -4939,16 +4939,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\gebruiker1\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Trial\\.nuget\\packages\\": {}
->>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
       "projectName": "WebApplication1",
       "projectPath": "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
@@ -4958,21 +4953,12 @@
       "configFilePaths": [
         "C:\\Users\\gebruiker1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-      "projectUniqueName": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\Trial\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Trial\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

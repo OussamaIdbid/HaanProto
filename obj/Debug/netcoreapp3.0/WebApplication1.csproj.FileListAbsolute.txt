@@ -530,7 +530,6 @@ c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.RazorTargetAssemblyInfo.cs
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.Views.pdb
 C:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
-<<<<<<< HEAD
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\Dapper.dll
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\EmbeddedBlazorContent.dll
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\MatBlazor.dll
@@ -570,7 +569,8 @@ c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDecl
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\ProductContainer.razor.g.cs
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\OrderLine.razor.g.cs
 c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\ProductContainer.razor.g.cs
-=======
 c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\ProductCategories.razor.g.cs
 c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\ProductCategories.razor.g.cs
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
+c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\ProductCategories.razor.g.cs
+c:\Users\gebruiker1\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\ProductCategories.razor.g.cs
