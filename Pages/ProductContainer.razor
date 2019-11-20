@@ -27,10 +27,10 @@
   
     protected override async Task OnInitializedAsync()  
     {  
-        products = await ProductService.GetProducts();  
+        products = await ProductService.GetProductsByCategory(2);  
     }
-    
-      
+
+
 }  
 
 

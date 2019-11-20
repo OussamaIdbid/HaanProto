@@ -112,8 +112,6 @@ using MatBlazor;
         CustomRender = CreateItem();
     }
 
-    
-
 #line default
 #line hidden
 #nullable disable

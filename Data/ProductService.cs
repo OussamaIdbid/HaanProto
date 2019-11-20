@@ -114,13 +114,13 @@ namespace WebApplication1.Data{
             IEnumerable<Product> products;  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"select * from cash.dbo.Product where categoryid = @categoryId";  
+                const string query = @"select * from cash.dbo.Product where CategoryId = @CategoryId";  
   
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    products = await conn.QueryAsync<Product>(query);  
+                    products = await conn.QueryAsync<Product>(query, new { categoryId}, commandType: CommandType.Text);  
   
                 }  
                 catch (Exception ex)  
