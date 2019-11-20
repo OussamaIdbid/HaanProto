@@ -3,6 +3,7 @@
   "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj": {}
   },
   "projects": {
@@ -18,6 +19,8 @@
         "configFilePaths": [
           "/Users/kerolos/.nuget/NuGet/NuGet.Config"
 =======
+=======
+>>>>>>> 30fb45c321c0b9f32bd38c1160e15ff120db4b6f
     "C:\\Users\\gebruiker1\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj": {}
   },
   "projects": {
@@ -33,6 +36,7 @@
         "configFilePaths": [
           "C:\\Users\\gebruiker1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+<<<<<<< HEAD
 >>>>>>> 8279a4bc253e014a9e2ed73eb8e55e6a635421dc
 =======
     "C:\\Users\\Trial\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj": {}
@@ -50,11 +54,14 @@
         "configFilePaths": [
           "C:\\Users\\Trial\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> bbeee46549fc2ced1e1eac3abfd270a5ee0104bd
+=======
+>>>>>>> 30fb45c321c0b9f32bd38c1160e15ff120db4b6f
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
