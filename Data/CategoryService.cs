@@ -6,23 +6,23 @@ using System.Data;
 using System.Threading.Tasks;  
   
 namespace WebApplication1.Data{  
-    public class ProductService : IProductService 
+    public class CategoryService : ICategoryService 
     {  
         private readonly SqlConnectionConfiguration _configuration;  
-        public ProductService(SqlConnectionConfiguration configuration)  
+        public CategoryService(SqlConnectionConfiguration configuration)  
         {  
             _configuration = configuration;  
         }  
-        public async Task<bool> CreateProduct(Product product)  
+        public async Task<bool> CreateCategory(Category category)  
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"insert into dbo.Product (Name,Price) values (@Name,@Price)";  
+                const string query = @"insert into dbo.Category (Name) values (@Name,@Price)";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    await conn.ExecuteAsync(query, new { product.Name, product.Price }, commandType: CommandType.Text);  
+                    await conn.ExecuteAsync(query, new { category.CategoryName}, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -36,16 +36,16 @@ namespace WebApplication1.Data{
             }  
             return true;  
         }  
-        public async Task<bool> DeleteProduct(int id)  
+        public async Task<bool> DeleteCategory(int CategoryId)  
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"delete from dbo.Product where Id=@Id";  
+                const string query = @"delete from dbo.Category where CategoryId=@CategoryId";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    await conn.ExecuteAsync(query, new { id }, commandType: CommandType.Text);  
+                    await conn.ExecuteAsync(query, new { CategoryId }, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -59,16 +59,16 @@ namespace WebApplication1.Data{
             }  
             return true;  
         }  
-        public async Task<bool> EditProduct(int id, Product city)  
+        public async Task<bool> EditCategory(int CategoryId, Category category)  
         {  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"update dbo.Product set Name = @Name, Price = @Price where Id=@Id";  
+                const string query = @"update dbo.Category set Name = @Name where CategoryId=@CategoryId";  
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    await conn.ExecuteAsync(query, new { city.Name, city.Price, id }, commandType: CommandType.Text);  
+                    await conn.ExecuteAsync(query, new { category.CategoryName, CategoryId }, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -81,19 +81,19 @@ namespace WebApplication1.Data{
                 }  
             }  
             return true;  
-        }  
-        public async Task<IEnumerable<Product>> GetProducts()  
+        } 
+        public async Task<IEnumerable<Category>> GetCategories()  
         {  
-            IEnumerable<Product> products;  
+            IEnumerable<Category> categories;  
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"select * from cash.dbo.Product";  
+                const string query = @"select * from cash.dbo.Category";  
   
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    products = await conn.QueryAsync<Product>(query);  
+                    categories = await conn.QueryAsync<Category>(query);  
   
                 }  
                 catch (Exception ex)  
@@ -107,49 +107,22 @@ namespace WebApplication1.Data{
                 }  
   
             }  
-            return products;  
+            return categories;  
         }
-        public async Task<IEnumerable<Product>> GetProductsByCategory(int categoryId){
-
-            IEnumerable<Product> products;  
-            using (var conn = new SqlConnection(_configuration.Value))  
-            {  
-                const string query = @"select * from cash.dbo.Product where CategoryId = @CategoryId";  
-  
-                if (conn.State == ConnectionState.Closed)  
-                    conn.Open();  
-                try  
-                {  
-                    products = await conn.QueryAsync<Product>(query, new { categoryId}, commandType: CommandType.Text);  
-  
-                }  
-                catch (Exception ex)  
-                {  
-                    throw ex;  
-                }  
-                finally  
-                {  
-                    if (conn.State == ConnectionState.Open)  
-                        conn.Close();  
-                }  
-  
-            }  
-            return products;  
-
-        }
-        public async Task<Product> SingleProduct(int id)  
+        
+        public async Task<Category> SingleCategory(int CategoryId)  
         {  
-            Product city = new Product();  
+            Category category = new Category();  
   
             using (var conn = new SqlConnection(_configuration.Value))  
             {  
-                const string query = @"select * from dbo.Product where Id =@Id";  
+                const string query = @"select * from dbo.Category where CategoryId =@CategoryId";  
   
                 if (conn.State == ConnectionState.Closed)  
                     conn.Open();  
                 try  
                 {  
-                    city = await conn.QueryFirstOrDefaultAsync<Product>(query, new { id }, commandType: CommandType.Text);  
+                    category = await conn.QueryFirstOrDefaultAsync<Category>(query, new { CategoryId }, commandType: CommandType.Text);  
                 }  
                 catch (Exception ex)  
                 {  
@@ -161,7 +134,7 @@ namespace WebApplication1.Data{
                         conn.Close();  
                 }  
             }  
-            return city;  
+            return category;  
         }  
     }  
 }  
