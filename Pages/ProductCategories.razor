@@ -1,0 +1,45 @@
+@page "/productcategories"
+@using WebApplication1.Data
+@using System.Linq;
+@inject ICategoryService CategoryService
+@inject IProductService ProductService
+@inject IJSRuntime JsRuntime
+
+<div class="mat-layout-grid">
+            <div class="mat-layout-grid-inner">
+             @if (categories == null)
+            {
+                <p><em>Loading...</em></p>
+            }
+            else
+            { 
+            @foreach (var category in categories)
+            {   <MatRipple class="category-button .mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+                     @category.CategoryName
+                </MatRipple>
+            }
+        }
+                
+
+            </div>
+        </div>
+
+@code{
+    [parameter]
+    
+    IEnumerable<Category> categories;
+    IEnumerable<Product> products; 
+     
+  
+    protected override async Task OnInitializedAsync()  
+    {  
+        categories = await CategoryService.GetCategories();
+        
+
+    }
+
+
+
+
+
+}  

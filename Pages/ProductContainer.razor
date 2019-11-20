@@ -4,6 +4,7 @@
 
 
 
+
         <div class="mat-layout-grid">
             <div class="mat-layout-grid-inner">
              @if (products == null)
@@ -13,7 +14,7 @@
             else
             {   
             @foreach (var product in products)
-            {   <MatRipple class=".mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+            {   <MatRipple class=".mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2" >
                      @product.Name
                 </MatRipple>
             }
@@ -22,13 +23,19 @@
 
             </div>
         </div>
+
+
 @code{
-    IEnumerable<Product> products;  
+    IEnumerable<Product> products;
   
     protected override async Task OnInitializedAsync()  
     {  
-        products = await ProductService.GetProductsByCategory(2);  
+        products = await ProductService.GetProducts();  
+        
     }
+
+
+
 
 
 }  
