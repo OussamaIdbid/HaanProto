@@ -2,33 +2,53 @@
 @using WebApplication1.Data
 @inject IProductService ProductService
 
-
-
+            
         <div class="mat-layout-grid">
             <div class="mat-layout-grid-inner">
-             @if (products == null)
+                
+                    
+            @if (products == null)
             {
                 <p><em>Loading...</em></p>
             }
             else
             {   
             @foreach (var product in products)
-            {   <MatRipple class=".mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+            {   
+
+                <MatRipple class="mat-elevation-z4 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
                      @product.Name
                 </MatRipple>
+
             }
         }
-                
-
             </div>
-        </div>
+            
+                </div>
+
+
+        
+
+
+
 @code{
-    IEnumerable<Product> products;  
+    [Parameter]
+    public int Id {get; set;}
+    IEnumerable<Product> products;
+
+
+ 
+ 
   
     protected override async Task OnInitializedAsync()  
     {  
-        products = await ProductService.GetProductsByCategory(2);  
+        products = await ProductService.GetProductsByCategory(Id);  
+        
     }
+
+
+
+
 
 
 }  

@@ -384,7 +384,6 @@ c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.dll
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.pdb
 c:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\appsettings.Development.json
-c:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\appsettings.json
 c:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 c:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\WebApplication1.exe
 C:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\WebApplication1.deps.json
@@ -432,3 +431,8 @@ c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.RazorTargetAssemblyInfo.cs
 c:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.Views.pdb
 C:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
+c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\ProductCategories.razor.g.cs
+c:\Users\Trial\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\ProductCategories.razor.g.cs
+C:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\ProductCategories.razor.g.cs
+C:\Users\oussa\Documents\GitHub\HaanProto\obj\Debug\netcoreapp3.0\Razor\Pages\ProductCategories.razor.g.cs
+C:\Users\oussa\Documents\GitHub\HaanProto\bin\Debug\netcoreapp3.0\appsettings.json

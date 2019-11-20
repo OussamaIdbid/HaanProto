@@ -1,4 +1,5 @@
 @page "/cash"
+<div class="mat-blazor-demo-theme-app-row">
     <div id='main-container' class='container d-inline-flex flex-row shadow-lg'>
 
 		<div id='left' class='container col-8 justify-content-start'>
@@ -7,15 +8,12 @@
 		        <i class="material-icons" id='menu-icon'>menu</i>
             </div>
             <div id="product-container" class=''>
-
+                <ProductCategories></ProductCategories>
                 <ProductContainer></ProductContainer>
+                
  
             </div>
         </div>
-
-        
-    
-
 
 
         <div id='right' class='container col-4 bg-white'>
@@ -26,17 +24,16 @@
                         <p id='subtotal' >Subtotal</p>
                         <p id='total'>Total</p>
                     </div>
-                    <div id="checkout-buttons-container" >
-                        <button type="button" id="cancel-button" class="btn btn-lg  btn-primary shadow-sm checkout-button m-1">Cancel</button>
-                        <button type="button" id="pin-button" class="btn btn-lg  btn-primary shadow-sm checkout-button m-1">Pin</button>
-                        <button type="button" id="contant-button" class="btn btn-lg btn-primary shadow-sm checkout-button m-1">Contant</button>
+                    <div id="checkout-buttons-container">
+                        <MatButton Raised='true' id="cancel-button" class="">Cancel</MatButton>
+                        <MatButton Raised='true' id="pin-button" class="">Pin</MatButton>
+                        <MatButton Raised='true' id="contant-button" class="">Contant</MatButton>
                     </div>
                 </div>
             </div>
         
     </div>
-
-    
+    </div>
 
 @code {
 

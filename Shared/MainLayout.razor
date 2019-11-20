@@ -9,7 +9,16 @@
         <a href="https://docs.microsoft.com/en-us/aspnet/" target="_blank">About</a>
     </div>
 
+</div>
+
     <div class="content px-4">
         @Body
     </div>
-</div>
+@code
+    {
+        MatTheme theme = new MatTheme()
+        {
+            Primary = "darkblue",
+            Secondary = "white"
+        };
+    }

@@ -1,0 +1,45 @@
+@page "/productcategories"
+@using WebApplication1.Data
+@using System.Linq;
+@inject ICategoryService CategoryService
+@inject IProductService ProductService
+@inject IJSRuntime JsRuntime
+
+    <MatChipSet>
+             @if (categories == null)
+            {
+                <p><em>Loading...</em></p>
+            }
+            else
+            { 
+            @foreach (var category in categories)
+            {  
+            <MatButton Label=@category.CategoryName  class='category-button mat-elevation-z4 mat-layout-grid-cell mat-layout-grid-cell-span-2' @onclick="getIndexClickedCategory">
+            </MatButton>               
+            }
+        }              
+    </MatChipSet>
+
+    <div>
+    clicked index was: <span id="indexClicked"></span>
+    </div>
+@code{
+
+    
+    IEnumerable<Category> categories;
+    IEnumerable<Product> products; 
+    int index;
+  
+    protected override async Task OnInitializedAsync()  
+    {  
+        categories = await CategoryService.GetCategories();
+    }
+    async Task getIndexClickedCategory(){
+        var response = await JsRuntime.InvokeAsync<int>( identifier:"getButtonIndex",
+            index);
+        await JsRuntime.InvokeVoidAsync("setElementTextById","indexClicked",response);
+    
+    }
+
+
+}  

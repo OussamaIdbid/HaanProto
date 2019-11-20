@@ -33,6 +33,7 @@ namespace WebApplication1
 
 
             services.AddScoped<IProductService, ProductService>();  
+            services.AddScoped<ICategoryService, CategoryService>(); 
   
             var sqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("SqlDbContext"));  
             services.AddSingleton(sqlConnectionConfiguration);  
