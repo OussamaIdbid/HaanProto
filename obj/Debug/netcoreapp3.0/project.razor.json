@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\oussa\\Documents\\GitHub\\HaanProto\\WebApplication1.csproj",
+  "FilePath": "/Users/kerolos/Documents/GitHub/HaanProto/WebApplication1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -11,714 +11,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.App",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.App"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.App",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.App",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Cash",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Cash",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Cash"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Cash",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.Cash",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Cash",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Counter",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Counter"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Counter",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.Counter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Error",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Error",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Error"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Error",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.Error",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Error",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.FetchData",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.FetchData"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.FetchData",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Index",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.Index",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.OrderLine",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "OrderLine",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "name",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "name"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "amount",
-            "TypeName": "System.Int32",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "amount"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "price",
-            "TypeName": "System.Double",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "price"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.OrderLine"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.OrderLine",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.OrderLine",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "name",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "name"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "amount",
-            "TypeName": "System.Int32",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "amount"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "price",
-            "TypeName": "System.Double",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "price"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.OrderLine",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.ProductContainer",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProductContainer",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.ProductContainer"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.ProductContainer",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.ProductContainer",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.ProductContainer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__ProductContainer",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "__generated__ProductContainer",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Pages.__generated__ProductContainer",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Pages.__generated__ProductContainer",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Pages.__generated__ProductContainer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Shared.MainLayout",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Shared.MainLayout"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Shared.MainLayout",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Shared.MainLayout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "WebApplication1.Shared.MainLayout.Body",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "WebApplication1.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "WebApplication1.Shared.MainLayout.Body",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "WebApplication1.Shared.MainLayout",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "WebApplication1.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Shared.NavMenu",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Shared.NavMenu"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "WebApplication1.Shared.NavMenu",
-        "AssemblyName": "WebApplication1",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "WebApplication1.Shared.NavMenu",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "WebApplication1.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "Kind": "Components.Component",
         "Name": "MatBlazor.BaseMatAccordion",
@@ -55273,7 +54565,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n             <summary>\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\n             so that it displays the page matching the specified route but only if the user\n             is authorized to see it.\n            \n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\n             which makes the user's current authentication state available to descendants.\n             </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55293,7 +54585,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55308,7 +54600,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55370,7 +54662,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n             <summary>\n             Combines the behaviors of <see cref=\"T:Microsoft.AspNetCore.Components.Authorization.AuthorizeView\" /> and <see cref=\"T:Microsoft.AspNetCore.Components.RouteView\" />,\n             so that it displays the page matching the specified route but only if the user\n             is authorized to see it.\n            \n             Additionally, this component supplies a cascading parameter of type <see cref=\"T:System.Threading.Tasks.Task`1\" />,\n             which makes the user's current authentication state available to descendants.\n             </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55390,7 +54682,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55405,7 +54697,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55468,7 +54760,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55493,7 +54785,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55519,7 +54811,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55559,7 +54851,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55600,7 +54892,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Displays differing content depending on the user's authorization status.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55620,7 +54912,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The policy name that determines whether the content can be displayed.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Policy"
@@ -55634,7 +54926,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A comma delimited list of roles that are allowed to display the content.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Roles"
@@ -55648,7 +54940,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorized",
@@ -55663,7 +54955,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55678,7 +54970,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -55693,7 +54985,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55708,7 +55000,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The resource to which access is being controlled.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Resource"
@@ -55741,7 +55033,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Displays differing content depending on the user's authorization status.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55761,7 +55053,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The policy name that determines whether the content can be displayed.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Policy"
@@ -55775,7 +55067,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A comma delimited list of roles that are allowed to display the content.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Roles"
@@ -55789,7 +55081,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorized",
@@ -55804,7 +55096,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Authorizing",
@@ -55819,7 +55111,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -55834,7 +55126,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "NotAuthorized",
@@ -55849,7 +55141,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The resource to which access is being controlled.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Resource"
@@ -55883,7 +55175,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55923,7 +55215,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            If you specify a value for this parameter, do not also specify a value for <see cref=\"P:Microsoft.AspNetCore.Components.Authorization.AuthorizeViewCore.ChildContent\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55964,7 +55256,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -55989,7 +55281,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed while asynchronous authorization is in progress.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56015,7 +55307,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56055,7 +55347,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56096,7 +55388,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56136,7 +55428,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content that will be displayed if the user is not authorized.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56197,7 +55489,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content to which the authentication state should be provided.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -56237,7 +55529,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The content to which the authentication state should be provided.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -56258,7 +55550,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content to which the authentication state should be provided.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -56283,7 +55575,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            The content to which the authentication state should be provided.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57153,7 +56445,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57177,7 +56469,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Adds Data Annotations validation support to an <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditContext\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57202,7 +56494,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57222,7 +56514,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created <c>form</c> element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57236,7 +56528,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Supplies the edit context explicitly. If using this parameter, do not\n            also supply <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.Model\" />, since the model value will be taken\n            from the <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditContext.Model\" /> property.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "EditContext"
@@ -57250,7 +56542,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the top-level model object for the form. An edit context will\n            be constructed for this model. If using this parameter, do not also supply\n            a value for <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Model"
@@ -57264,7 +56556,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -57279,7 +56571,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n             <summary>\n             A callback that will be invoked when the form is submitted.\n            \n             If using this parameter, you are responsible for triggering any validation\n             manually, e.g., by calling <see cref=\"M:Microsoft.AspNetCore.Components.Forms.EditContext.Validate\" />.\n             </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnSubmit",
@@ -57294,7 +56586,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be valid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnValidSubmit",
@@ -57309,7 +56601,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be invalid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnInvalidSubmit",
@@ -57343,7 +56635,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Renders a form element that cascades an <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> to descendants.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57363,7 +56655,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created <c>form</c> element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57377,7 +56669,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Supplies the edit context explicitly. If using this parameter, do not\n            also supply <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.Model\" />, since the model value will be taken\n            from the <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditContext.Model\" /> property.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "EditContext"
@@ -57391,7 +56683,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the top-level model object for the form. An edit context will\n            be constructed for this model. If using this parameter, do not also supply\n            a value for <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Model"
@@ -57405,7 +56697,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ChildContent",
@@ -57420,7 +56712,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n             <summary>\n             A callback that will be invoked when the form is submitted.\n            \n             If using this parameter, you are responsible for triggering any validation\n             manually, e.g., by calling <see cref=\"M:Microsoft.AspNetCore.Components.Forms.EditContext.Validate\" />.\n             </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnSubmit",
@@ -57435,7 +56727,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be valid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnValidSubmit",
@@ -57450,7 +56742,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            A callback that will be invoked when the form is submitted and the\n            <see cref=\"P:Microsoft.AspNetCore.Components.Forms.EditForm.EditContext\" /> is determined to be invalid.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "OnInvalidSubmit",
@@ -57485,7 +56777,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57525,7 +56817,7 @@
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Specifies the content to be rendered inside this <see cref=\"T:Microsoft.AspNetCore.Components.Forms.EditForm\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57566,7 +56858,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing <see cref=\"T:System.Boolean\" /> values.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57586,7 +56878,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57600,7 +56892,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -57614,7 +56906,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -57629,7 +56921,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -57648,7 +56940,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing <see cref=\"T:System.Boolean\" /> values.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57668,7 +56960,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57682,7 +56974,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -57696,7 +56988,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -57711,7 +57003,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -57731,7 +57023,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing date values.\n            Supported types are <see cref=\"T:System.DateTime\" /> and <see cref=\"T:System.DateTimeOffset\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57766,7 +57058,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the error message used when displaying an a parsing error.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ParsingErrorMessage"
@@ -57780,7 +57072,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57794,7 +57086,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -57809,7 +57101,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -57825,7 +57117,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -57846,7 +57138,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing date values.\n            Supported types are <see cref=\"T:System.DateTime\" /> and <see cref=\"T:System.DateTimeOffset\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57881,7 +57173,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the error message used when displaying an a parsing error.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ParsingErrorMessage"
@@ -57895,7 +57187,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -57909,7 +57201,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -57924,7 +57216,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -57940,7 +57232,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -57962,7 +57254,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing numeric values.\n            Supported numeric types are <see cref=\"T:System.Int32\" />, <see cref=\"T:System.Int64\" />, <see cref=\"T:System.Single\" />, <see cref=\"T:System.Double\" />, <see cref=\"T:System.Decimal\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -57997,7 +57289,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the error message used when displaying an a parsing error.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ParsingErrorMessage"
@@ -58011,7 +57303,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58025,7 +57317,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -58040,7 +57332,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58056,7 +57348,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -58077,7 +57369,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            An input component for editing numeric values.\n            Supported numeric types are <see cref=\"T:System.Int32\" />, <see cref=\"T:System.Int64\" />, <see cref=\"T:System.Single\" />, <see cref=\"T:System.Double\" />, <see cref=\"T:System.Decimal\" />.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -58112,7 +57404,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the error message used when displaying an a parsing error.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ParsingErrorMessage"
@@ -58126,7 +57418,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58140,7 +57432,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -58155,7 +57447,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58171,7 +57463,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -58193,7 +57485,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            A dropdown selection component.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -58243,7 +57535,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58257,7 +57549,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -58272,7 +57564,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58288,7 +57580,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -58309,7 +57601,7 @@
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            A dropdown selection component.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -58359,7 +57651,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58373,7 +57665,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value",
@@ -58388,7 +57680,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58404,7 +57696,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression",
@@ -58497,7 +57789,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58511,7 +57803,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -58525,7 +57817,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58540,7 +57832,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -58579,7 +57871,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58593,7 +57885,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -58607,7 +57899,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58622,7 +57914,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -58662,7 +57954,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58676,7 +57968,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -58690,7 +57982,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58705,7 +57997,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -58744,7 +58036,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a collection of additional attributes that will be applied to the created element.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AdditionalAttributes"
@@ -58758,7 +58050,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value of the input. This should be used with two-way binding.\n            </summary>\n            <example>\n            @bind-Value=\"model.PropertyName\"\n            </example>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
@@ -58772,7 +58064,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a callback that updates the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueChanged",
@@ -58787,7 +58079,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets an expression that identifies the bound value.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValueExpression"
@@ -64301,7 +63593,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting elements containing attributes with URL expected values.\n            </summary>\n            <remarks>Resolves URLs starting with '~/' (relative to the application's 'webroot' setting) that are not\n            targeted by other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s. Runs prior to other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s to ensure\n            application-relative URLs are resolved.</remarks>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": false,
         "TagMatchingRules": [
@@ -74872,33 +74164,18 @@
   "RootNamespace": "WebApplication1",
   "Documents": [
     {
-      "FilePath": "Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "Pages/ProductContainer.razor",
+      "TargetPath": "Pages/ProductContainer.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "Pages/Index.razor",
+      "TargetPath": "Pages/Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Cash.razor",
-      "TargetPath": "Pages\\Cash.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\ProductContainer.razor",
-      "TargetPath": "Pages\\ProductContainer.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
+      "FilePath": "Pages/Cash.razor",
+      "TargetPath": "Pages/Cash.razor",
       "FileKind": "component"
     },
     {
@@ -74907,28 +74184,43 @@
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
+      "FilePath": "App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Shared/MainLayout.razor",
+      "TargetPath": "Shared/MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/Counter.razor",
+      "TargetPath": "Pages/Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "Pages/_Host.cshtml",
+      "TargetPath": "Pages/_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
+      "FilePath": "Pages/Error.razor",
+      "TargetPath": "Pages/Error.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Error.razor",
-      "TargetPath": "Pages\\Error.razor",
+      "FilePath": "Pages/OrderLine.razor",
+      "TargetPath": "Pages/OrderLine.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\OrderLine.razor",
-      "TargetPath": "Pages\\OrderLine.razor",
+      "FilePath": "Pages/FetchData.razor",
+      "TargetPath": "Pages/FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "Shared/NavMenu.razor",
+      "TargetPath": "Shared/NavMenu.razor",
       "FileKind": "component"
     }
   ],
