@@ -2,7 +2,13 @@
 @using WebApplication1.Data
 @inject IProductService ProductService
 
+<<<<<<< HEAD
             
+=======
+
+
+
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
         <div class="mat-layout-grid">
             <div class="mat-layout-grid-inner">
                 
@@ -14,15 +20,20 @@
             else
             {   
             @foreach (var product in products)
+<<<<<<< HEAD
             {   
 
                 <MatRipple class="mat-elevation-z4 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+=======
+            {   <MatRipple class=".mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2" >
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
                      @product.Name
                 </MatRipple>
 
             }
         }
             </div>
+<<<<<<< HEAD
             
                 </div>
 
@@ -43,6 +54,17 @@
     protected override async Task OnInitializedAsync()  
     {  
         products = await ProductService.GetProductsByCategory(Id);  
+=======
+        </div>
+
+
+@code{
+    IEnumerable<Product> products;
+  
+    protected override async Task OnInitializedAsync()  
+    {  
+        products = await ProductService.GetProducts();  
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
         
     }
 
@@ -50,7 +72,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
 }  
 
 

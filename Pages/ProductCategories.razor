@@ -5,7 +5,12 @@
 @inject IProductService ProductService
 @inject IJSRuntime JsRuntime
 
+<<<<<<< HEAD
     <MatChipSet>
+=======
+<div class="mat-layout-grid">
+            <div class="mat-layout-grid-inner">
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
              @if (categories == null)
             {
                 <p><em>Loading...</em></p>
@@ -13,6 +18,7 @@
             else
             { 
             @foreach (var category in categories)
+<<<<<<< HEAD
             {  
             <MatButton Label=@category.CategoryName  class='category-button mat-elevation-z4 mat-layout-grid-cell mat-layout-grid-cell-span-2' @onclick="getIndexClickedCategory">
             </MatButton>               
@@ -29,10 +35,32 @@
     IEnumerable<Category> categories;
     IEnumerable<Product> products; 
     int index;
+=======
+            {   <MatRipple class="category-button .mat-elevation-z3 product-test mat-layout-grid-cell mat-layout-grid-cell-span-2">
+                     @category.CategoryName
+                </MatRipple>
+            }
+        }
+                
+
+            </div>
+        </div>
+
+@code{
+<<<<<<< HEAD
+    
+=======
+        
+>>>>>>> 30fb45c321c0b9f32bd38c1160e15ff120db4b6f
+    IEnumerable<Category> categories;
+    IEnumerable<Product> products; 
+     
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
   
     protected override async Task OnInitializedAsync()  
     {  
         categories = await CategoryService.GetCategories();
+<<<<<<< HEAD
     }
     async Task getIndexClickedCategory(){
         var response = await JsRuntime.InvokeAsync<int>( identifier:"getButtonIndex",
@@ -40,6 +68,14 @@
         await JsRuntime.InvokeVoidAsync("setElementTextById","indexClicked",response);
         Console.WriteLine(index);
     }
+=======
+        
+
+    }
+
+
+
+>>>>>>> 6f49a51a5d3aeb241d10ece2d50fabb0b33ef04a
 
 
 }  
